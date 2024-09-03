@@ -84,4 +84,5 @@ first_book = 8
 second_book = first_book * 2
 third_book = (first_book + second_book) / 2
 print(f"One of each book costs: first book - {first_book} hrn., second book - {second_book} hrn., third book - {third_book} hrn.")
+########################################
 
