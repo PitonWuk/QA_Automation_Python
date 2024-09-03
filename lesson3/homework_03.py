@@ -1,7 +1,14 @@
-#alice_in_wonderland = '"Would you tell me, please, which way I ought to go from here?"\n"That depends a good deal on where you want to get to," said the Cat.\n"I don't much care where ——" said Alice.\n"Then it doesn't matter which way you go," said the Cat.\n"—— so long as I get somewhere," Alice added as an explanation.\n"Oh, you're sure to do that," said the Cat, "if you only walk long enough."'
+#alice_in_wonderland = '"Would you tell me, please, which way I ought to go from here?"\n"That depends a good deal
+# on where you want to get to," said the Cat.\n"I don't much care where ——" said Alice.\n"Then it doesn't matter which
+# way you go," said the Cat.\n"—— so long as I get somewhere," Alice added as an explanation.\n"Oh, you're sure to do
+# that," said the Cat, "if you only walk long enough."'
 
 # task 01 == Розділіть змінну alice_in_wonderland так, щоб вона займала декілька фізичних лінії
-alice_in_wonderland_corrected = '"Would you tell me, please, which way I ought to go from here?"\n"That depends a good deal on where you want to get to," said the Cat.\n"I don\'t much care where ——" said Alice.\n"Then it doesn\'t matter which way you go," said the Cat.\n"—— so long as I get somewhere," Alice added as an explanation.\n"Oh, you\'re sure to do that," said the Cat, "if you only walk long enough."'
+alice_in_wonderland_corrected = '"Would you tell me, please, which way I ought to go from here?"\n"That depends a ' \
+                                'good deal on where you want to get to," said the Cat.\n"I don\'t much care where ' \
+                                '——" said Alice.\n"Then it doesn\'t matter which way you go," said the Cat.\n"—— ' \
+                                'so long as I get somewhere," Alice added as an explanation.\n"Oh, you\'re sure to ' \
+                                'do that," said the Cat, "if you only walk long enough."'
 
 # task 02 == Знайдіть та відобразіть всі символи одинарної лапки (') у тексті
 single_quote_count = alice_in_wonderland_corrected.count("'")
@@ -22,9 +29,9 @@ print(alice_in_wonderland_corrected)
 моря становить 37 800 км2. Яку площу займають Чорне та Азов-
 ське моря разом?
 """
-area_Black_sea = 436402
-area_Azov_sea = 37800
-print(f"Azov and Black sea have area: {area_Azov_sea + area_Black_sea} square kilometers.")
+area_black_sea = 436402
+area_azov_sea = 37800
+print(f"Azov and Black sea have area: {area_azov_sea + area_black_sea} square kilometers.")
 
 
 # task 05
@@ -110,4 +117,5 @@ print(f"The quantity of pages are: {quantity_photos / quantity_photos_one_page}"
 ний бак?
 """
 general_distance = 1600
-print(f"For such travel needs {general_distance / 100 * 9} liters of patrol. The family should buy patrol {(general_distance / 100 * 9) / 48} times.")
+print(f"For such travel needs {general_distance / 100 * 9} liters of patrol. "
+      f"The family should buy patrol {(general_distance / 100 * 9) / 48} times.")
