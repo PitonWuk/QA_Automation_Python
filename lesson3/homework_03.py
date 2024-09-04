@@ -1,13 +1,15 @@
-#alice_in_wonderland = '"Would you tell me, please, which way I ought to go from here?"\n"That depends a good deal 
-# on where you want to get to," said the Cat.\n"I don't much care where ——" said Alice.\n"Then it doesn't matter 
-# which way you go," said the Cat.\n"—— so long as I get somewhere," Alice added as an explanation.\n"Oh, you're 
-# sure to do that," said the Cat, "if you only walk long enough."'
+
+#alice_in_wonderland = '"Would you tell me, please, which way I ought to go from here?"\n"That depends a good deal
+# on where you want to get to," said the Cat.\n"I don't much care where ——" said Alice.\n"Then it doesn't matter which
+# way you go," said the Cat.\n"—— so long as I get somewhere," Alice added as an explanation.\n"Oh, you're sure to do
+# that," said the Cat, "if you only walk long enough."'
 
 # task 01 == Розділіть змінну alice_in_wonderland так, щоб вона займала декілька фізичних лінії
 alice_in_wonderland_corrected = '"Would you tell me, please, which way I ought to go from here?"\n"That depends ' \
     'a good deal on where you want to get to," said the Cat.\n"I don\'t much care where ——" said Alice.\n"Then ' \
         'it doesn\'t matter which way you go," said the Cat.\n"—— so long as I get somewhere," Alice added as ' \
             'an explanation.\n"Oh, you\'re sure to do that," said the Cat, "if you only walk long enough."'
+
 
 # task 02 == Знайдіть та відобразіть всі символи одинарної лапки (') у тексті
 single_quote_count = alice_in_wonderland_corrected.count("'")
@@ -116,5 +118,7 @@ print(f"The quantity of pages are: {quantity_photos / quantity_photos_one_page}"
 ний бак?
 """
 general_distance = 1600
-print(f"For such travel needs {general_distance / 100 * 9} liters of petrol."
-      f"The family should buy petrol {(general_distance / 100 * 9) / 48} times.")
+
+print(f"For such travel needs {general_distance / 100 * 9} liters of patrol. "
+      f"The family should buy patrol {(general_distance / 100 * 9) / 48} times.")
+
