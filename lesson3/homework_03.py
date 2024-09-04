@@ -1,14 +1,15 @@
+
 #alice_in_wonderland = '"Would you tell me, please, which way I ought to go from here?"\n"That depends a good deal
 # on where you want to get to," said the Cat.\n"I don't much care where ——" said Alice.\n"Then it doesn't matter which
 # way you go," said the Cat.\n"—— so long as I get somewhere," Alice added as an explanation.\n"Oh, you're sure to do
 # that," said the Cat, "if you only walk long enough."'
 
 # task 01 == Розділіть змінну alice_in_wonderland так, щоб вона займала декілька фізичних лінії
-alice_in_wonderland_corrected = '"Would you tell me, please, which way I ought to go from here?"\n"That depends a ' \
-                                'good deal on where you want to get to," said the Cat.\n"I don\'t much care where ' \
-                                '——" said Alice.\n"Then it doesn\'t matter which way you go," said the Cat.\n"—— ' \
-                                'so long as I get somewhere," Alice added as an explanation.\n"Oh, you\'re sure to ' \
-                                'do that," said the Cat, "if you only walk long enough."'
+alice_in_wonderland_corrected = '"Would you tell me, please, which way I ought to go from here?"\n"That depends ' \
+    'a good deal on where you want to get to," said the Cat.\n"I don\'t much care where ——" said Alice.\n"Then ' \
+        'it doesn\'t matter which way you go," said the Cat.\n"—— so long as I get somewhere," Alice added as ' \
+            'an explanation.\n"Oh, you\'re sure to do that," said the Cat, "if you only walk long enough."'
+
 
 # task 02 == Знайдіть та відобразіть всі символи одинарної лапки (') у тексті
 single_quote_count = alice_in_wonderland_corrected.count("'")
@@ -66,14 +67,14 @@ a) 8019 : 8     d) 7248 : 6
 b) 9907 : 9     e) 7128 : 5
 c) 2789 : 5     f) 19224 : 9
 """
-first_reminder = 8019 % 8
-second_reminder = 9907 % 9
-third_reminder = 2789 % 5
-fourth_reminder = 7248 % 6
-fifth_reminder = 7128 % 5
-sixth_reminder = 19224 % 9
-print(f"first reminder = {fifth_reminder}\nsecond reminder = {second_reminder}\nthird reminder = {third_reminder}"
-      f"\nfourth reminder = {fourth_reminder}\nfifth reminder = {fifth_reminder}\nsixth reminder = {sixth_reminder}")
+first_remainder = 8019 % 8
+second_remainder = 9907 % 9
+third_remainder = 2789 % 5
+fourth_remainder = 7248 % 6
+fifth_remainder = 7128 % 5
+sixth_remainder = 19224 % 9
+print(f"first reminder = {fifth_remainder}\nsecond remainder = {second_remainder}\nthird remainder = {third_remainder}"
+      f"\nfourth remainder = {fourth_remainder}\nfifth remainder = {fifth_remainder}\nsixth remainder = {sixth_remainder}")
 
 # task 08
 """
@@ -117,5 +118,7 @@ print(f"The quantity of pages are: {quantity_photos / quantity_photos_one_page}"
 ний бак?
 """
 general_distance = 1600
+
 print(f"For such travel needs {general_distance / 100 * 9} liters of patrol. "
       f"The family should buy patrol {(general_distance / 100 * 9) / 48} times.")
+
