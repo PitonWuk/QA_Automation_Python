@@ -19,4 +19,4 @@ for num in array_of_numbers:
     result = sum_of_numbers(num)
     if result is not None:
         print(f"Sum of numbers in the string'{num}: {result}")
-        
+
