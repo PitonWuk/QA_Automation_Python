@@ -30,3 +30,5 @@ def test_log_event_unknown_status(caplog):
     assert caplog.records[0].message == 'Login event - Username: user4, Status: unknown'
     assert caplog.records[0].levelname == 'ERROR'
 
+
+
