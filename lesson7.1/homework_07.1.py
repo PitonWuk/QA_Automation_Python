@@ -111,7 +111,7 @@ def sum_even_numbers(sum_of_numbers):
     return sum(number for number in lst1 if number % 2 == 0)
 
 
-lst1 = [12, 54, 1, 5, 8, 77, 45, 66]
+lst1 = [33, 55, 7, 11, 15]
 result = sum_even_numbers(lst1)
 print(f"The sum of even numbers is: {result}")
 
@@ -153,7 +153,6 @@ print(True if result > 10 else False)
 
 def part_of_pay(number):
     return number * 6
-
 
 result = part_of_pay(1179)
 print(f"The cost of the computer is: {result * 6} hrn.")
